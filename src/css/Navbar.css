@@ -22,7 +22,7 @@ nav {
 }
 
 #homeDiv {
-  height: 36px;
+  height: 35px;
 }
 
 #momentsDiv {
@@ -48,10 +48,6 @@ nav {
 #homeSVG:hover,
 #momentsSVG:hover {
   fill: rgb(5, 159, 245);
-}
-
-#searchDiv {
-  margin-left: 77rem;
 }
 
 #searchInput,
