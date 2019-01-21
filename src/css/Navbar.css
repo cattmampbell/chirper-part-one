@@ -26,7 +26,7 @@ nav {
 }
 
 #momentsDiv {
-  height: 34px;
+  height: 32px;
 }
 
 #homeDiv:hover,
@@ -38,11 +38,15 @@ nav {
 
 #homeSVG {
   fill: rgb(29, 161, 242);
+  width: 30px; 
+  height: 30px;
 }
 
 #momentsSVG {
   fill: rgb(108, 117, 125);
   fill-rule: nonzero;
+  width: 14px; 
+  height: 20px;
 }
 
 #homeSVG:hover,
@@ -82,4 +86,17 @@ nav {
 #searchSVG {
   fill: rgb(108, 117, 125);
   fill-rule: evenodd;
+  width: 16px; 
+  height: 16px; 
+}
+
+#emailInput,
+#passwordInput {
+  width: 210px;
+}
+
+#dropdownLoginBtn,
+#dropdownSignUpBtn {
+  width: 205px;
+  border-radius: 20px;
 }

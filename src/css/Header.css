@@ -1,5 +1,5 @@
-#profileBackground {
-  height: 360px;
+#userHeaderBackground {
+  height: 34rem;
   background-image: url(../assets/header-media/background-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
