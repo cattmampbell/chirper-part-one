@@ -16,11 +16,6 @@ nav {
   text-decoration-style: none;
 }
 
-#homeDiv,
-#momentsDiv {
-  text-align: center;
-}
-
 #homeDiv {
   height: 35px;
 }
@@ -54,33 +49,119 @@ nav {
   fill: rgb(5, 159, 245);
 }
 
+/* 
+#searchDiv {
+  background-color: rgb(245, 248, 250);
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+
+#searchDiv:active,
+#searchDiv:focus {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 0px 0px transparent;
+  outline-width: 0px;
+  outline-offset: 0px;
+  outline-style: none;
+  outline-color: transparent;
+  border-color: rgb(62, 150, 223);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+} 
+*/
+ 
+#searchInput {
+  border-top-color: rgb(108, 117, 125);
+  border-bottom-color: rgb(108, 117, 125);
+  border-left-color: rgb(108, 117, 125);
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+#searchInput,
+#searchInput:active,
+#searchInput:focus {
+  border-right-color: transparent;
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-right-width: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+#searchDiv:active,
+#searchDiv:focus
+#searchInput:active,
+#searchInput:focus,
+#searchBtn:active,
+#searchBtn:focus {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 0px 0px transparent;
+  outline-width: 0px;
+  outline-offset: 0px;
+  outline-style: none;
+  outline-color: transparent;
+}
+
+#searchInput:active,
+#searchInput:focus {
+  border-top-color: rgb(62, 150, 223);
+  border-bottom-color: rgb(62, 150, 223);
+  border-left-color: rgb(62, 150, 223);
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+}
+
+#searchBtn:active,
+#searchBtn:focus {
+  border-top-color: rgb(62, 150, 223);
+  border-right-color: rgb(62, 150, 223);
+  border-bottom-color: rgb(62, 150, 223);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+}
+
 #searchInput,
 #searchBtn {
   background-color: rgb(245, 248, 250);
 }
 
-#searchInput {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-#searchInput:focus {
-  box-shadow: 0px 0px 0px 0px transparent;
-  background-color: rgb(255, 255, 255);
-}
+#searchBtn,
+#searchBtn:active,
+#searchBtn:focus {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-left-width: 0px;
+  border-left-color: transparent;
+  border-left-style: none;
+} 
 
 #searchBtn {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px; 
-  border-width: 1px 1px 1px 0px;
-}
+  border-top-color: rgb(108, 117, 125);
+  border-right-color: rgb(108, 117, 125);
+  border-bottom-color: rgb(108, 117, 125);
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+} 
 
-#searchBtn:focus {
-  outline-width: 0px;
-  outline-offset: 0px;
-  outline-style: none;
-  outline-color: transparent;
-  box-shadow: 0px 0px 0px 0px transparent;
+#searchBtn:hover {
+  cursor: pointer;
 }
 
 #searchSVG {

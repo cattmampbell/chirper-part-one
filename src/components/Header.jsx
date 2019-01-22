@@ -5,12 +5,15 @@ import '../css/Header.css';
 const Header = () => {
   return (
     <React.Fragment>
+      {/* <!-- START Header.jsx --> */}
       <main>
-        {/* User Header Background Image */}
+        {/* <!-- User Header Background --> */}
         <div id="userHeaderBackground" className="row" alt="Image courtesy of Elijah M. Henderson (@elijahhenderson) on Unsplash. More info here: https://unsplash.com/@elijahhenderson">
+          {/* AVATAR COMPONENT */}
           <Avatar />
         </div>
       </main>
+      {/* <!-- Header.jsx END --> */}
     </React.Fragment>
   )
 }

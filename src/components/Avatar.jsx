@@ -4,15 +4,17 @@ import '../css/Avatar.css';
 const Avatar = () => {
   return(
     <React.Fragment>
+      {/* <!-- START Avatar.jsx --> */}
       <div className="container">
-        {/* User Avatar Container */}
-        <div id="userAvatarDiv" class="position-relative">
-          {/* User Avatar Image */}
+        {/* <!-- User Avatar Container --> */}
+        <div id="userAvatarDiv" className="position-relative">
+          {/* <!-- User Avatar --> */}
           <div id="userAvatar">
 
           </div>
         </div>
       </div>
+      {/* <!-- Avatar.jsx END --> */}
     </React.Fragment>
   )
 }
