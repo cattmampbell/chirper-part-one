@@ -1,7 +1,43 @@
 #userStatsNav {
   background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
 }
 
 #userStatsUnorderedList {
   list-style: none;
+}
+
+li {
+  border-color: transparent !important; 
+  border-style: none !important;
+  border-width: 0px !important;
+  border-radius: 0px !important;
+  line-height: 1.25rem;
+}
+
+#tweetsSpan {
+  color: rgb(5, 159, 245);
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.user-stats-top,
+.user-stats-bottom {
+  color: rgb(108, 117, 125);
+}
+
+.user-stats-top {
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.user-stats-bottom {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+#followBtn {
+  width: 125px;
+  border-radius: 20px;
+  cursor: pointer;  
 }
