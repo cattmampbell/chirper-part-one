@@ -1,0 +1,106 @@
+#userDiv {
+  top: 4rem;
+  left: -2rem;  
+}
+
+#nameAnchor {
+  color: #14171a;
+  z-index: 3;
+}
+
+#nameHeader {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+#verifiedSVG {
+  width: 16px;
+  height: 16px;
+  fill: rgb(29, 161, 242);
+}
+
+#verifiedSVGPath {
+  fill-rule: evenodd;
+}
+
+#handleHeader {
+  font-size: 16px;
+}
+
+#bioHeader,
+#locationHeader,
+#linkHeader,
+#joinedHeader,
+#mediaHeader {
+  font-size: 15px;
+}
+
+#locationSVG {
+  width: 12px; 
+  height: 16px;
+}
+
+#locationSVGPath,
+#linkSVGPath,
+#joinedSVGPath,
+#mediaSVGPath {
+  fill-rule: evenodd;
+  fill: #6c757d;
+}
+
+#linkSVG {
+  width: 16px;
+  height: 16px;
+}
+
+#linkHeader,
+#mediaHeader {
+  color: #1b95e3;
+}
+
+#joinedSVG {
+  width: 14px;
+  height: 16px;
+}
+
+#mediaSVG {
+  width: 12px;
+  height: 16px;
+}
+
+.user-photo {
+  height: 80px;
+  width: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6%;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+#photo1 {
+  background-image: url(../assets/user-media/jpgs/photo-1.jpg);
+}
+
+#photo2 {
+  background-image: url(../assets/user-media/jpgs/photo-2.jpg);
+}
+
+#photo3 {
+  background-image: url(../assets/user-media/jpgs/photo-3.jpg);
+}
+
+#photo4 {
+  background-image: url(../assets/user-media/jpgs/photo-4.jpg);
+}
+
+#photo5 {
+  background-image: url(../assets/user-media/jpgs/photo-5.jpg);
+}
+
+#photo6 {
+  background-image: url(../assets/user-media/jpgs/photo-6.jpg);
+}
