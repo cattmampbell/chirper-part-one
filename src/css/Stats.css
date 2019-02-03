@@ -15,8 +15,8 @@
 .stats-list-item {
   margin-right: 0px;
   margin-left: 0px;
-  padding-right: .75rem;
-  padding-left: .75rem;
+  padding-right: .85rem;
+  padding-left: .85rem;
   border-color: transparent;
   border-width: 0px;
   border-style: none;
@@ -83,7 +83,8 @@
 
 #followBtn {
   height: 36px;
-  width: 106px;
+  width: 108px;
   border-radius: 20px;
-  margin-left: 10rem;
+  margin-left: 9rem;
+  z-index: 10;
 }

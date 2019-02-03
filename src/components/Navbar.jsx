@@ -1,10 +1,12 @@
 import React from 'react';
+import Header from './Header';
 import '../css/Navbar.css';
 
 const Navbar = () => {
   return (
     <React.Fragment>
-      {/* <!-- START Navbar.jsx --> */}
+    {/* <!-- START Navbar.jsx --> */}
+
       <nav id="topNav" className="navbar navbar-light fixed-top py-0 px-0">
         <div className="container px-0">
           <div className="justify-content-start align-items-center">
@@ -74,7 +76,10 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      {/* <!-- Navbar.jsx END --> */}
+      {/* HEADER COMPONENT */}
+      <Header />
+
+    {/* <!-- END Navbar.jsx --> */}
     </React.Fragment>
   )
 }

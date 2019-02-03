@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
-import Header from './Header';
 import Stats from './Stats';
 
 class App extends Component {
@@ -8,7 +7,6 @@ class App extends Component {
     return (
       <React.Fragment>
         <Navbar />
-        <Header />
         <Stats />
       </React.Fragment>
     )
