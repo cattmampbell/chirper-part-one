@@ -10,7 +10,7 @@ const Avatar = () => {
         {/* <!-- User Avatar Container --> */}
         <div id="userAvatarDiv" className="position-relative">
           {/* <!-- User Avatar --> */}
-          <div id="userAvatar" class="position-relative"></div>
+          <div id="userAvatar" className="position-relative"></div>
         </div>
       </div>
 
