@@ -6,11 +6,11 @@ import Stats from './Stats';
 class App extends Component {
   render() {
     return (
-      <div id="app">
+      <React.Fragment>
         <Navbar />
         <Header />
         <Stats />
-      </div>
+      </React.Fragment>
     )
   }
 }
