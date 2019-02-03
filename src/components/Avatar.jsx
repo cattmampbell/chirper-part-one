@@ -9,9 +9,7 @@ const Avatar = () => {
         {/* <!-- User Avatar Container --> */}
         <div id="userAvatarDiv" className="position-relative">
           {/* <!-- User Avatar --> */}
-          <div id="userAvatar">
-
-          </div>
+          <div id="userAvatar" class="position-relative"></div>
         </div>
       </div>
       {/* <!-- Avatar.jsx END --> */}
