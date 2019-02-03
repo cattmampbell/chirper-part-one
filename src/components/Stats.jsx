@@ -5,59 +5,53 @@ const Stats = () => {
   return (
     <React.Fragment>
       {/* <!-- START Stats.jsx --> */}
-      <nav id="userStatsNav" className="navbar navbar-light py-1">
-        <div className="container">
-          <div className="row align-items-center" style={{width: 1040}}>
-            <div className="col-3">
-
-            </div>
+      <nav id="userStatsNav" className="navbar navbar-light py-0 px-0">
+        <div className="container px-0">
+          <div id="rowDiv" className="row align-items-center">
+            {/* <!-- Empty Column --> */}
+            <div className="col-3"></div>
             {/* <!-- User Stats --> */}
-            <div className="col-8">
+            <div className="col-7">
               <ul id="userStatsUnorderedList" className="list-group d-inline-block">
                 {/* <!-- Tweets --> */}
-                <li id="tweetsListItem" className="nav-item list-group-item d-inline-block">
-                  <a href="#" className="d-inline-block text-center align-middle">
-                    <span className="user-stats-top">Tweets</span>
-                    <br />
-                    <span id="tweetsSpan" className="user-stats-bottom">50</span>
+                <li id="tweetsListItem" className="nav-item list-group-item d-inline-block stats-list-item">
+                  <a href="http://www.chirper.com/cattmampbell/" className="d-inline-block align-middle">
+                    <span className="d-block text-center user-stats-top">Tweets</span>
+                    <span id="tweetsSpan" className="d-block text-center user-stats-bottom">50</span>
                   </a>
                 </li>
                 {/* <!-- Following --> */}
-                <li id="followingListItem" className="nav-item list-group-item d-inline-block">
-                  <a href="#" className="d-inline-block text-center align-middle">
-                    <span className="user-stats-top">Following</span>
-                    <br />
-                    <span className="user-stats-bottom">314</span>
+                <li id="followingListItem" className="nav-item list-group-item d-inline-block stats-list-item">
+                  <a href="http://www.chirper.com/cattmampbell/following/" className="d-inline-block align-middle">
+                    <span className="d-block text-center user-stats-top">Following</span>
+                    <span className="d-block text-center user-stats-bottom">314</span>
                   </a>
                 </li>
                 {/* <!-- Followers --> */}
-                <li id="followersListItem" className="nav-item list-group-item d-inline-block">
-                  <a href="#" className="d-inline-block text-center align-middle">
-                    <span className="user-stats-top">Followers</span>
-                    <br />
-                    <span className="user-stats-bottom">157</span>
+                <li id="followersListItem" className="nav-item list-group-item d-inline-block stats-list-item">
+                  <a href="http://www.chirper.com/cattmampbell/followers/" className="d-inline-block align-middle">
+                    <span className="d-block text-center user-stats-top">Followers</span>
+                    <span className="d-block text-center user-stats-bottom">157</span>
                   </a>
                 </li>
                 {/* <!-- Likes --> */}
-                <li id="likesListItem" className="nav-item list-group-item d-inline-block">
-                  <a href="#" className="d-inline-block text-center align-middle">
-                    <span className="user-stats-top">Likes</span>
-                    <br />
-                    <span className="user-stats-bottom">42</span>
+                <li id="likesListItem" className="nav-item list-group-item d-inline-block stats-list-item">
+                  <a href="http://www.chirper.com/cattmampbell/likes/" className="d-inline-block align-middle">
+                    <span className="d-block text-center user-stats-top">Likes</span>
+                    <span className="d-block text-center user-stats-bottom">42</span>
                   </a>
                 </li>
                 {/* <!-- Moments --> */}
-                <li id="momentsListItem" className="nav-item list-group-item d-inline-block">
-                  <a href="#" className="d-inline-block text-center align-middle">
-                    <span className="user-stats-top">Moments</span>
-                    <br />
-                    <span className="user-stats-bottom">7</span>
+                <li id="momentsListItem" className="nav-item list-group-item d-inline-block stats-list-item">
+                  <a href="http://www.chirper.com/cattmampbell/moments/" className="d-inline-block align-middle">
+                    <span className="d-block text-center user-stats-top">Moments</span>
+                    <span className="d-block text-center user-stats-bottom">7</span>
                   </a>
                 </li>
               </ul>
             </div>
-            <div className="col-1">
-              <button id="followBtn" class="btn btn-outline-primary " type="button">Follow</button>
+            <div className="col-2">
+              <button id="followBtn" className="btn btn-outline-primary d-inline-block position-relative" type="submit">Follow</button>
             </div>
           </div>
         </div>

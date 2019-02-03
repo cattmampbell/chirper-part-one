@@ -1,43 +1,89 @@
 #userStatsNav {
   background-color: rgb(255, 255, 255);
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  width: 1950px;
 }
 
-#userStatsUnorderedList {
+/* #userStatsUnorderedList {
   list-style: none;
+} */
+
+#rowDiv {
+  width: 1040px;
 }
 
-li {
-  border-color: transparent !important; 
-  border-style: none !important;
-  border-width: 0px !important;
-  border-radius: 0px !important;
-  line-height: 1.25rem;
+.stats-list-item {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: .75rem;
+  padding-left: .75rem;
+  border-color: transparent;
+  border-width: 0px;
+  border-style: none;
+  /* transition-delay: 0s;
+  transition-duration: 0.15s;
+  transition-property: all;
+  transition-timing-function: ease-in-out; */
 }
 
 #tweetsSpan {
   color: rgb(5, 159, 245);
-  font-size: 1rem;
-  font-weight: 900;
 }
+
+#tweetsListItem {
+  border-bottom-color: rgb(5, 159, 245);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+/* #followingListItem:hover,
+#followersListItem:hover,
+#likesListItem:hover,
+#momentsListItem:hover {
+  border-bottom-color: rgb(5, 159, 245);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+} */
+
+/* #tweetsListItem,
+#followingListItem,
+#followersListItem,
+#likesListItem,
+#momentsListItem,
+#followBtn {
+  cursor: pointer;
+}  */
 
 .user-stats-top,
 .user-stats-bottom {
+  font-weight: 700;
   color: rgb(108, 117, 125);
+  text-size-adjust: 100%;
+  letter-spacing: 0.25px;
+  /* text-align: center; 
+  list-style-image: none;
+  list-style-type: none;
+  list-style-position: outside; */
 }
 
 .user-stats-top {
-  font-size: .9rem;
-  font-weight: 700;
+  font-size: 13px;
+  line-height: 13px;
+  margin-bottom: 3px;
 }
 
 .user-stats-bottom {
-  font-size: 1rem;
-  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
 }
 
+/* .user-stats-bottom:hover {
+  color: rgb(5, 159, 245);
+} */
+
 #followBtn {
-  width: 125px;
+  height: 36px;
+  width: 106px;
   border-radius: 20px;
-  cursor: pointer;  
+  margin-left: 10rem;
 }
